@@ -21,7 +21,7 @@
 가지치기(Pruning), 양자화(Quantization), 지식 증류(Knowledge Distillation), 네트워크 구조 검색(NAS) 등을 통해 모델을 가볍게 만들고, 하드웨어 제약이 있는 환경에서도 충분한 성능을 낼 수 있게 하는 기술은 앞으로 더욱 중요해질 것입니다.
 
 
-## 모델 경량화 Introduction
+## 이번 시즌에 배울 지식 Introduction
 - **Pruning**: 모델 파라미터를 부분적으로 제거해 모델 크기를 줄이면서 성능은 최대한 유지하는 기법  
 - **Quantization**: 파라미터를 낮은 정밀도로 표현해 계산량과 메모리 사용량을 절감하는 기법  
 - **Knowledge Distillation**: 큰 모델의 지식을 작은 모델에 전이하여 경량화하면서도 높은 성능을 유지하는 기법  
