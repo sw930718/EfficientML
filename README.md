@@ -1,6 +1,5 @@
-# 10th-template
 
-<h1 align="center"> 10th Template </h1>
+<h1 align="center"> Deep Learning Efficient Inference</h1>
 
 <div align="center">
 <a href="https://pseudo-lab.com"><img src="https://img.shields.io/badge/PseudoLab-S10-3776AB" alt="PseudoLab"/></a>
@@ -17,111 +16,112 @@
 <!-- sheilds: https://shields.io/ -->
 <!-- hits badge: https://hits.seeyoufarm.com/ -->
 
-> Welcome to OOO repository! We aim to OOO, offering tools and frameworks for OOO, OOO, and OOO. Join us in advancing the field of OOO through open collaboration and innovation!
+
+최근 AI 기술이 빠르게 발전하며 **딥러닝 모델**의 규모와 성능이 폭발적으로 증가하고 있습니다. 그러나 모델이 커질수록 **메모리 사용량**, **추론 시간**, **에너지 소모**가 급격히 증가하기 때문에, 효율적인 **경량화 기법**과 **추론 최적화**에 대한 수요도 높아지고 있습니다.  
+**가지치기(Pruning)**, **양자화(Quantization)**, **지식 증류(Knowledge Distillation)**, **네트워크 구조 검색(NAS)** 등을 통해 모델을 가볍게 만들고, 하드웨어 제약이 있는 환경에서도 충분한 성능을 낼 수 있게 하는 기술은 앞으로 더욱 중요해질 것입니다.
+
+
+## 모델 경량화 Introduction
+- **Pruning**: 모델 파라미터를 부분적으로 제거해 모델 크기를 줄이면서 성능은 최대한 유지하는 기법  
+- **Quantization**: 파라미터를 낮은 정밀도로 표현해 계산량과 메모리 사용량을 절감하는 기법  
+- **Knowledge Distillation**: 큰 모델의 지식을 작은 모델에 전이하여 경량화하면서도 높은 성능을 유지하는 기법  
+- **Neural Architecture Search**: 다양한 아키텍처를 자동으로 탐색해 최적의 모델 구조를 찾는 기법
+
+본 스터디에서는 이론적 지식뿐만 아니라, **실제 모델을 경량화하고 추론 효율을 개선**하는 일련의 실습 프로젝트를 통해 실전 감각을 키웁니다.
+
+
+## 왜 이걸 배워야 하는가?
+- 기업들은 **효율적인 모델 서빙**을 통해 **클라우드 비용** 절감과 **엣지 디바이스 적용**을 원하는 추세입니다.  
+- 대용량 데이터를 다루는 스타트업부터 대기업까지, **AI 응용 분야 전반**에서 모델 최적화 역량은 매우 환영받습니다.  
+- LLM(대형 언어 모델), 컴퓨터 비전, 음성 인식 등 다양한 분야에 적용이 가능하므로, **적용 범위가 넓고 활용 가치가 높습니다.**
+
+
+## 배우면 어떤 이득이 있는가?
+- **AI 연구원**, **ML 엔지니어**, **Mobile/Edge device Developer**, **MLOps** 등 다양한 직무에 적용할 수 있는 스킬셋을 갖출 수 있습니다.  
+- **인프라 비용** 최적화, **on-device AI**, **IoT 솔루션 개발** 등과 연계되어 **국내외 주요 기업**에 진출 가능성을 높일 수 있습니다.  
+- 직접 경량화 프로젝트를 수행하면서, 현업에 필요한 실무 역량을 쌓을 수 있습니다.
+
 
 ## 🌟 프로젝트 목표 (Project Vision)
-_"이론에서 실전까지, 함께 성장하는 AI 실험실"_  
-- Graph-based RAG 스터디 및 프로젝트
-- 개인 성장과 집단 지혜의 시너지 창출
-- 오픈소스 정신을 바탕으로 한 지식 공유 문화
-- 실패를 성공의 디딤돌로 만드는 실험적 접근
+1. **이론 학습**: Pruning, Quantization, Knowledge Distillation, Network Architecture Search 등의 핵심 개념과 기법 학습  
+- [MIT 6.5940 TinyML and Efficient Deep Learning Computing](https://hanlab.mit.edu/courses/2024-fall-65940) 강의를 기반으로 함
+2. **실전 프로젝트 수행**: 실제 모델을 경량화하고 추론 최적화를 적용해보는 경험 축적  
+- 개인 또는 팀 단위로 프로젝트 제안 및 진행
 
 
-## 🧑 역동적인 팀 소개 (Dynamic Team)
+<!-- ## 🧑 팀 소개 (Dynamic Team)
 
-| 역할          | 이름 |  기술 스택 배지                                                                 | 주요 관심 분야                          |
+| 역할          | 이름 | LinkedIn |   |
 |---------------|------|-----------------------------------------------------------------------|----------------------------------------|
-| **Project Manager** | 김찬란 | ![Python](https://img.shields.io/badge/Python-Expert-3776AB) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C) | 생성형 AI/추천 시스템 최적화             |
-| **Member** | 레오나르도 다빈치 | ![SQL](https://img.shields.io/badge/SQL-Advanced-003B57) ![BigQuery](https://img.shields.io/badge/BigQuery-4285F4) | 데이터 파이프라인 설계                  |
+| **Project Manager** | 박성수 | [Link](https://www.linkedin.com/in/seongsu-park/)           |
+| **Member** | TBD |          -->
 
 
-## 🚀 프로젝트 로드맵 (Project Roadmap)
-```mermaid
-gantt
-    title 2025 AI 프로젝트 여정
-    section 핵심 마일스톤
-    이론 연구       :a1, 2025-09-01, 30d
-    MVP 개발        :a2, after a1, 45d
-    프로덕션 적용    :a3, after a2, 30d
-    section 부가 활동
-    기술 세미나     :2025-10-15, 7d
-    해커톤         :2025-11-20, 3d
-```
 
+## 💻 주차별 계획 (Activity History)
 
-## 🛠️ 우리의 개발 문화 (Our Development Culture)
-**우리의 개발 문화**  
-```python
-class CollaborationFramework:
-    def __init__(self):
-        self.tools = {
-            'communication': 'Discord',
-            'version_control': 'GitHub Projects',
-            'ci/cd': 'GitHub Actions',
-            'docs': 'Github Wiki'
-        }
-    
-    def workflow(self):
-        return """주간 사이클:
-        1️⃣ 월요일: 스프린트 플래닝 (Notion 타임라인 공유)
-        2️⃣ 수요일: 코드 리뷰 세션 (Live Share)
-        3️⃣ 금요일: 데모데이 (실제 적용 사례 발표)"""
-```
-
-
-## 📈 성과 지표 (Achievement Metrics)
-**2024 주요 KPI**  
-| 지표                     | 목표치 | 현재 달성률 |
-|--------------------------|--------|-------------|
-| 커밋 수                  | 1,200  | 83%         |
-| 이슈 해결률              | 95%    | 89%         | 
-| 기술 블로그 게시물       | 24편   | 15편        |
-| 오픈소스 기여도          | 8회    | 5회         |
-
-
-## 💻 주차별 활동 (Activity History)
-
-| 날짜 | 내용 | 발표자 | 
+| 날짜 | 내용 | Link | 
 | -------- | -------- | ---- |
-| 2025/02/ | OT       |      |
-| 2025/02/ |  Part 1. | 미정 | 
-| 2025/02/ |  Part 2. | 미정 | 
-| 2025/02/ |  Part 3. | 미정 | 
-| 2025/03/ |  Part 4. | 미정 | 
-| 2025/03/ |  Part 5. | 미정 | 
+| 2025/3/4 | OT       |      |
+| 2025/3/11 |  Basics of Deep Learning | 미정 | 
+| 2025/3/18 |  Pruning and Sparsity (Part I) | 미정 | 
+| 2025/3/25 |  ⭐ Magical Week 휴일 ⭐ | 미정 | 
+| 2025/4/1 |  Pruning and Sparsity (Part II) | 미정 | 
+| 2025/4/8 |  Quantization (Part I) | 미정 | 
+| 2025/4/15 |  Quantization (Part II) | 미정 | 
+| 2025/4/22 |  Neural Architecture Search (Part I) | 미정 | 
+| 2025/4/29 |  ⭐ Magical Week 휴일 ⭐ | 미정 | 
+| 2025/5/6 |  Neural Architecture Search (Part II) | 미정 | 
+| 2025/5/13 |  Knowledge Distillation | 미정 | 
+| 2025/5/20 |  MCUNet: TinyML on Microcontrollers | 미정 | 
+| 2025/5/27 |  TinyEngine and Parallel Processing | 미정 | 
+
+> **매주 일정**:  
+> - 스터디 전, 할당된 강의를 사전에 학습 (영어 자막 강의 + PPT 등)  
+> - 스터디 시간에 강의 내용 토의 및 질의응답  
+> - 개인 혹은 팀별 프로젝트 진행 상황 공유 및 피드백
 
 
-
-## 💡 학습 자원 (Learning Resources)
+<!-- ## 💡 학습 자원 (Learning Resources)
 **우리가 만든 지식 허브**  
 - [AI Playbook](https://github.com/your-org/ai-playbook): 150+ 페이지의 실전 가이드
 - [MLOps Pipeline Template](https://github.com/your-org/mlops-template): 재사용 가능한 인프라 코드
-- [Failure Journal](https://your-org.github.io/failure-journal): 50+개의 실패 사례 분석 [31][34]
+- [Failure Journal](https://your-org.github.io/failure-journal): 50+개의 실패 사례 분석 [31][34] -->
 
 
 ## 🌱 참여 안내 (How to Engage)
-**팀원으로 참여하시려면 러너 모집 기간에 신청해주세요.**  
-- 링크 (준비중)
+### ✔️ 참여 조건
+- **3개월** 동안 꾸준히 참여할 수 있는 **의지**  
+- **주 4시간** 정도의 학습 및 실습 시간 확보해야 함
+- 딥러닝 기본 이론 지식 (CNN, Transformer 등) 보유, **PyTorch 기초 사용** 가능  
+- 영어 자막 강의를 수강하고, 영어 PPT를 이해할 수 있어야 함  
 
-**누구나 청강을 통해 모임을 참여하실 수 있습니다.**  
-1. 특별한 신청 없이 정기 모임 시간에 맞추어 디스코드 #Room-GH 채널로 입장
+### 지원서 작성 시 꼭 포함할 내용
+1. **스터디 지원 이유**  
+2. **스터디에서 만들고 싶은 결과물**  
+   - 예) 경량화된 모델 제작 프로젝트, 지식 정리 블로그, 튜토리얼 북, 특정 레포 오픈소스 기여 등  
+3. **스터디 전후 본인의 예상 변화와 이후 계획**  
+   - 예) 커리어 전환, 최적화 기반 회사 취업, 기반 새로운 프로젝트 진행 등  
+
+<!-- **누구나 청강을 통해 모임을 참여하실 수 있습니다.**  
+1. 특별한 신청 없이 정기 모임 시간에 맞추어 디스코드 #Room-?? 채널로 입장
 2. Magical Week 중 행사에 참가
-3. Pseudo Lab 행사에서 만나기
+3. Pseudo Lab 행사에서 만나기 -->
 
-## Acknowledgement 🙏
+<!-- ## Acknowledgement 🙏
 
-OOO is developed as part of Pseudo-Lab's Open Research Initiative. Special thanks to our contributors and the open source community for their valuable insights and contributions.
+OOO is developed as part of Pseudo-Lab's Open Research Initiative. Special thanks to our contributors and the open source community for their valuable insights and contributions. -->
 
 ## About Pseudo Lab 👋🏼</h2>
 
 [Pseudo-Lab](https://pseudo-lab.com/) is a non-profit organization focused on advancing machine learning and AI technologies. Our core values of Sharing, Motivation, and Collaborative Joy drive us to create impactful open-source projects. With over 5k+ researchers, we are committed to advancing machine learning and AI technologies.
 
 <h2>Contributors 😃</h2>
-<a href="https://github.com/Pseudo-Lab/10th-template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Pseudo-Lab/10th-template" />
+<a href="https://github.com/Pseudo-Lab/EfficientML/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Pseudo-Lab/EfficientML" />
 </a>
 <br><br>
 
-<h2>License 🗞</h2>
+<!-- <h2>License 🗞</h2>
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). -->
