@@ -1,0 +1,17 @@
+# Cache files
+*.pyc
+*.exe
+*.log
+*__pycache__
+.pytest_cache
+model_cache
+
+# Environment
+env
+.env
+*poetry.lock
+
+# Ruff
+-unsafe-fixes
+.ruff_cache
+.coverage
