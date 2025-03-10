@@ -1,0 +1,50 @@
+exclude: |
+    (?x)(
+        # Docs
+        ^.*\.md$|
+        ^docs/|
+
+        # Notebooks & WandB
+        ^notebooks/|
+        ^experiments/|
+        ^wandb/|
+        ^logs/|
+        ^runs/|
+
+        # Dataset & Model
+        ^data/|
+        ^datasets/|
+        ^checkpoints/|
+        ^weights/|
+        ^.*\.pth$|
+        ^.*\.ckpt$|
+        ^.*\.h5$|
+        ^.*\.onnx$|
+
+        # Cache files
+        ^.pytest_cache/|
+        ^__pycache__/|
+
+        ^\.env|
+        ^\.vscode/
+    )
+
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+    -   id: trailing-whitespace
+    -   id: end-of-file-fixer
+    -   id: check-yaml
+    -   id: check-toml
+    -   id: debug-statements
+    -   id: check-added-large-files
+        args: ['--maxkb=1024']
+
+
+-   repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.9.9
+    hooks:
+    -   id: ruff
+        args: [--fix, --exit-non-zero-on-fix]
+    -   id: ruff-format

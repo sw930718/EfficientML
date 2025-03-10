@@ -46,12 +46,13 @@ jobs:
 
     - name: Install dependencies
       if: steps.cached-poetry-dependencies.outputs.cache-hit != 'true'
-      run: poetry install --no-interaction
-
-    - name: Run linters
-      run: |
-        poetry run ruff check --fix
+      run: poetry install --no-interaction --no-root
 
     - name: Install package
       run: |
-        poetry install
+        poetry install --no-root
+
+    - name: Run linters
+      run: |
+        poetry run ruff check --fix .
+        poetry run ruff format .
