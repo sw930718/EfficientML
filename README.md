@@ -68,10 +68,10 @@
 | 날짜 | 내용 | Link | 
 | -------- | -------- | ---- |
 | 2025/3/4 | OT       |      |
-| 2025/3/11 |  Basics of Deep Learning | 미정 | 
-| 2025/3/18 |  Pruning and Sparsity (Part I) | 미정 | 
+| 2025/3/11 |  Basics of Deep Learning, Transformers | [[Part 1]](https://github.com/Pseudo-Lab/EfficientML/discussions/3) [[Part 2]](https://github.com/Pseudo-Lab/EfficientML/discussions/5) | 
+| 2025/3/18 |  Pruning and Sparsity (Part I), Transformer Design Variants | [[Part 1]](https://github.com/Pseudo-Lab/EfficientML/discussions/6) [[Part 2]](https://github.com/Pseudo-Lab/EfficientML/discussions/7) | 
 | 2025/3/25 |  ⭐ Magical Week 휴일 ⭐ | 미정 | 
-| 2025/4/1 |  Pruning and Sparsity (Part II) | 미정 | 
+| 2025/4/1 |  Pruning and Sparsity (Part II), Large language models, Transformers Advanced Topics | 미정 | 
 | 2025/4/8 |  Quantization (Part I) | 미정 | 
 | 2025/4/15 |  Quantization (Part II) | 미정 | 
 | 2025/4/22 |  Neural Architecture Search (Part I) | 미정 | 
