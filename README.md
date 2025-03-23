@@ -70,8 +70,8 @@
 | 2025/3/4 | OT       |      |
 | 2025/3/11 |  Basics of Deep Learning <br> Transformers | [[Part 1]](https://github.com/Pseudo-Lab/EfficientML/discussions/3) <br> [[Part 2]](https://github.com/Pseudo-Lab/EfficientML/discussions/5) | 
 | 2025/3/18 |  Pruning and Sparsity (Part I) <br> Transformer Design Variants | [[Part 1]](https://github.com/Pseudo-Lab/EfficientML/discussions/6) <br> [[Part 2]](https://github.com/Pseudo-Lab/EfficientML/discussions/7) | 
-| 2025/3/25 |  ⭐ Magical Week 휴일 ⭐ | 미정 | 
-| 2025/4/1 |  Pruning and Sparsity (Part II) <br> Large language models <br> LLM Fine-Tuning | [Part 1](https://github.com/Pseudo-Lab/EfficientML/discussions/8)  <br> [Part 2] (https://github.com/Pseudo-Lab/EfficientML/discussions/9)| 
+| 2025/3/25 |  ⭐ Magical Week 휴일 ⭐ | | 
+| 2025/4/1 |  Pruning and Sparsity (Part II) <br> Large language models <br> LLM Fine-Tuning | [[Part 1]](https://github.com/Pseudo-Lab/EfficientML/discussions/8)  <br> [[Part 2]](https://github.com/Pseudo-Lab/EfficientML/discussions/9)| 
 | 2025/4/8 |  Quantization (Part I) | 미정 | 
 | 2025/4/15 |  Quantization (Part II) | 미정 | 
 | 2025/4/22 |  Neural Architecture Search (Part I) | 미정 | 
