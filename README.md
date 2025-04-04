@@ -72,7 +72,7 @@
 | 2025/3/18 |  Pruning and Sparsity (Part I) <br> Transformer Design Variants | [[Part 1]](https://github.com/Pseudo-Lab/EfficientML/discussions/6) <br> [[Part 2]](https://github.com/Pseudo-Lab/EfficientML/discussions/7) | 
 | 2025/3/25 |  ⭐ Magical Week 휴일 ⭐ | | 
 | 2025/4/1 |  Pruning and Sparsity (Part II) <br> Large language models <br> LLM Fine-Tuning | [[Part 1]](https://github.com/Pseudo-Lab/EfficientML/discussions/8)  <br> [[Part 2]](https://github.com/Pseudo-Lab/EfficientML/discussions/9)| 
-| 2025/4/8 |  Quantization (Part I) | 미정 | 
+| 2025/4/8 |  Quantization (Part I) | [[Link]](https://github.com/Pseudo-Lab/EfficientML/discussions/12) | 
 | 2025/4/15 |  Quantization (Part II) | 미정 | 
 | 2025/4/22 |  Neural Architecture Search (Part I) | 미정 | 
 | 2025/4/29 |  ⭐ Magical Week 휴일 ⭐ | 미정 | 
@@ -86,6 +86,16 @@
 > - 스터디 시간에 강의 내용 토의 및 질의응답  
 > - 개인 혹은 팀별 프로젝트 진행 상황 공유 및 피드백
 
+
+## 💡 프로젝트
+| 제목 | 담당자 | Link |
+|---|---|---|
+|  | 박성수 | [[Link]](https://github.com/Pseudo-Lab/EfficientML/discussions/11) |
+|  | 김슬 |  |
+|  | 박동찬 | |
+|  | 오새빛나 | |
+|  | 윤남규 | |
+|  | 이정수 | |
 
 <!-- ## 💡 학습 자원 (Learning Resources)
 **우리가 만든 지식 허브**  
